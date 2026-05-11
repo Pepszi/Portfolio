@@ -15,12 +15,60 @@
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
     <main class="min-h-screen p-6">
-      <section class="min-h-[calc(100vh-3rem)] rounded-[0.0625rem] bg-section p-6" aria-label="Hero">
+      <section class="relative flex min-h-[calc(100vh-3rem)] items-center justify-center rounded-[0.0625rem] bg-section p-6" aria-label="Hero">
         <img
-          class="h-14 w-auto"
+          class="absolute left-6 top-6 h-14 w-auto"
           src="https://pub-bcdc09d0c38449ed9c66d6d7674773a3.r2.dev/logo.svg"
           alt="Logo"
         >
+
+        <div class="flex flex-col items-center text-center">
+          <h1 class="text-base font-semibold tracking-[0.08em]">Hi, Peter here.</h1>
+
+          <img
+            class="mt-9 h-28 w-28 object-cover"
+            src="https://pub-bcdc09d0c38449ed9c66d6d7674773a3.r2.dev/profile.webp"
+            alt="Portrait of Peter Madacsi"
+          >
+
+          <p class="mt-6 flex items-center justify-center gap-2">
+            <img
+              class="h-[1.1875rem] w-[6.75rem]"
+              src="https://pub-bcdc09d0c38449ed9c66d6d7674773a3.r2.dev/webflow-logo.svg"
+              alt="Webflow"
+            >
+            <span class="text-xl font-medium text-[#ffffff]">developer</span>
+          </p>
+
+          <p class="mt-3 text-[0.875rem] font-normal italic tracking-[0.08em]">Shipping Webflow sites since 2020</p>
+
+          <div class="mt-9 flex items-center justify-center gap-2">
+            <a
+              class="rounded-[0.125rem] transition-opacity hover:opacity-80 focus-visible:outline-[0.125rem] focus-visible:outline-offset-[0.25rem] focus-visible:outline-accent"
+              href="https://www.linkedin.com/in/p%C3%A9ter-mad%C3%A1csi-ab28ab193/"
+              target="_blank"
+              aria-label="Visit Peter Madacsi on LinkedIn"
+            >
+              <img
+                class="h-6 w-6"
+                src="https://pub-bcdc09d0c38449ed9c66d6d7674773a3.r2.dev/linkedin-icon.svg"
+                alt=""
+              >
+            </a>
+            <a
+              class="rounded-[0.125rem] transition-opacity hover:opacity-80 focus-visible:outline-[0.125rem] focus-visible:outline-offset-[0.25rem] focus-visible:outline-accent"
+              href="mailto:madacsi.peter.98@gmail.com"
+              target="_blank"
+              aria-label="Email Peter Madacsi"
+            >
+              <img
+                class="h-6 w-6"
+                src="https://pub-bcdc09d0c38449ed9c66d6d7674773a3.r2.dev/email-icon.svg"
+                alt=""
+              >
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   </body>
