@@ -13,7 +13,6 @@
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
-    --font-weight-bold: 700;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -22,6 +21,7 @@
     --color-section: rgb(51 111 101 / 10%);
     --color-foreground: #8fc7be;
     --color-accent: #00ffd2;
+    --color-deep: #172c29;
   }
 }
 @layer base {
@@ -179,6 +179,9 @@
   .relative {
     position: relative;
   }
+  .inset-0 {
+    inset: calc(var(--spacing) * 0);
+  }
   .top-6 {
     top: calc(var(--spacing) * 6);
   }
@@ -194,17 +197,14 @@
   .mt-9 {
     margin-top: calc(var(--spacing) * 9);
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
-  }
   .h-6 {
     height: calc(var(--spacing) * 6);
-  }
-  .h-7 {
-    height: calc(var(--spacing) * 7);
   }
   .h-14 {
     height: calc(var(--spacing) * 14);
@@ -215,14 +215,14 @@
   .h-\[1\.1875rem\] {
     height: 1.1875rem;
   }
+  .h-full {
+    height: 100%;
+  }
   .min-h-\[calc\(100vh-3rem\)\] {
     min-height: calc(100vh - 3rem);
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
@@ -236,6 +236,9 @@
   .w-auto {
     width: auto;
   }
+  .w-full {
+    width: 100%;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -248,17 +251,14 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
-  .gap-3 {
-    gap: calc(var(--spacing) * 3);
+  .overflow-hidden {
+    overflow: hidden;
   }
-  .gap-4 {
-    gap: calc(var(--spacing) * 4);
+  .rounded-\[0\.4rem\] {
+    border-radius: 0.4rem;
   }
   .rounded-\[0\.125rem\] {
     border-radius: 0.125rem;
-  }
-  .rounded-\[0\.0625rem\] {
-    border-radius: 0.0625rem;
   }
   .bg-background {
     background-color: var(--color-background);
@@ -285,10 +285,6 @@
   }
   .text-\[0\.875rem\] {
     font-size: 0.875rem;
-  }
-  .font-bold {
-    --tw-font-weight: var(--font-weight-bold);
-    font-weight: var(--font-weight-bold);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -357,6 +353,75 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     margin: 0;
+  }
+}
+@layer components {
+  .work-cursor-label {
+    --work-pointer-offset-x: 0.75rem;
+    --work-pointer-x: 0rem;
+    --work-pointer-y: 0rem;
+    align-items: center;
+    background-color: var(--color-deep);
+    border-radius: 0.4rem;
+    color: var(--color-accent);
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 500;
+    gap: 0.5rem;
+    justify-content: center;
+    left: 0;
+    letter-spacing: 0.02em;
+    line-height: 1;
+    opacity: 0;
+    padding: 1.125rem 2rem;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(var(--work-pointer-offset-x), 0.75rem);
+    transition: opacity 150ms ease, transform 350ms ease-in-out;
+    translate: var(--work-pointer-x) var(--work-pointer-y);
+    text-transform: uppercase;
+    white-space: nowrap;
+    will-change: transform, translate, opacity;
+    z-index: 1;
+  }
+  .work-cursor-marquee {
+    color: var(--color-foreground);
+    font-size: 0.6875rem;
+    inset-inline: 0;
+    letter-spacing: 0.0625rem;
+    line-height: 1;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0.25rem;
+  }
+  .work-cursor-marquee--bottom {
+    bottom: 0.25rem;
+    top: auto;
+  }
+  .work-cursor-marquee-track {
+    animation: work-cursor-marquee 10s linear infinite;
+    display: flex;
+    width: max-content;
+  }
+  .work-cursor-action {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+  .work-link:hover .work-cursor-label {
+    opacity: 1;
+  }
+  @keyframes work-cursor-marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @media (pointer: coarse) {
+    .work-cursor-label {
+      display: none;
+    }
   }
 }
 @property --tw-font-weight {
