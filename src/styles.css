@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+
+@layer components {
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 10;
+    transform: translateY(-200%);
+    border-radius: 0.75rem;
+    background: #f8fafc;
+    color: #020617;
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+    outline: 0.125rem solid #5eead4;
+    outline-offset: 0.25rem;
+  }
+
+  .focus-ring:focus-visible {
+    outline: 0.125rem solid #5eead4;
+    outline-offset: 0.25rem;
+  }
+}

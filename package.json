@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-one-pager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --watch",
+    "build": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "latest",
+    "tailwindcss": "latest"
+  }
+}
