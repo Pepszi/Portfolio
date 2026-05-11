@@ -1,6 +1,6 @@
-# Portfolio One-Pager
+# Portfolio website
 
-A lightweight one-page portfolio starter built with semantic HTML, Tailwind CSS, and vanilla JavaScript.
+The portfolio of Péter Madácsi
 
 ## Getting Started
 
@@ -23,3 +23,16 @@ npm run build
 ```
 
 The generated stylesheet is written to `assets/styles.css`, which is linked from `index.html`.
+
+## Technologies used
+
+### Core Frontend
+- HTML5
+- CSS3
+- Vanilla JavaScript (ES modules)
+
+### CSS Framewroks
+- Tailwind
+
+### External Services and Integrations
+- Cloudflare R2 public asset hosting
