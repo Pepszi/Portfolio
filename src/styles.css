@@ -39,10 +39,6 @@
   }
 
   .work-cursor-label {
-    --work-pointer-offset-x: 0.75rem;
-    --work-pointer-x: 0rem;
-    --work-pointer-y: 0rem;
-
     align-items: center;
     background-color: var(--color-deep);
     border-radius: 0.4rem;
@@ -52,23 +48,45 @@
     font-weight: 500;
     gap: 0.5rem;
     justify-content: center;
-    left: 0;
     letter-spacing: 0.02em;
     line-height: 1;
-    opacity: 0;
     padding: 1.125rem 2rem;
     pointer-events: none;
     position: absolute;
-    top: 0;
-    transform: translate(var(--work-pointer-offset-x), 0.75rem);
-    transition:
-      opacity 150ms ease,
-      transform 350ms ease-in-out;
-    translate: var(--work-pointer-x) var(--work-pointer-y);
     text-transform: uppercase;
     white-space: nowrap;
-    will-change: transform, translate, opacity;
     z-index: 1;
+  }
+
+  @media (width < 48rem) {
+    .work-cursor-label {
+      border-radius: 0;
+      bottom: 0;
+      inset-inline: 0;
+      opacity: 1;
+      top: auto;
+      transform: none;
+      translate: none;
+      width: 100%;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .work-cursor-label {
+      --work-pointer-offset-x: 0.75rem;
+      --work-pointer-x: 0rem;
+      --work-pointer-y: 0rem;
+
+      left: 0;
+      opacity: 0;
+      top: 0;
+      transform: translate(var(--work-pointer-offset-x), 0.75rem);
+      transition:
+        opacity 150ms ease,
+        transform 350ms ease-in-out;
+      translate: var(--work-pointer-x) var(--work-pointer-y);
+      will-change: transform, translate, opacity;
+    }
   }
 
   .work-cursor-marquee {
@@ -100,31 +118,27 @@
     gap: 0.5rem;
   }
 
-  .work-link:hover .work-cursor-label {
-    opacity: 1;
-  }
+  @media (width >= 48rem) {
+    .work-link:hover .work-cursor-label {
+      opacity: 1;
+    }
 
-  section:has([data-work-link]) {
-    transition: opacity 200ms ease;
-  }
+    section:has([data-work-link]) {
+      transition: opacity 200ms ease;
+    }
 
-  main:has([data-work-link]:hover) section:has([data-work-link]):not(:has([data-work-link]:hover)) {
-    opacity: 0.2;
-  }
+    main:has([data-work-link]:hover) section:has([data-work-link]):not(:has([data-work-link]:hover)) {
+      opacity: 0.2;
+    }
 
-  main:has([data-work-link]:focus-visible) section:has([data-work-link]):not(:has([data-work-link]:focus-visible)) {
-    opacity: 0.2;
+    main:has([data-work-link]:focus-visible) section:has([data-work-link]):not(:has([data-work-link]:focus-visible)) {
+      opacity: 0.2;
+    }
   }
 
   @keyframes work-cursor-marquee {
     to {
       transform: translateX(-50%);
-    }
-  }
-
-  @media (pointer: coarse) {
-    .work-cursor-label {
-      display: none;
     }
   }
 
