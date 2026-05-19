@@ -28,6 +28,16 @@
 }
 
 @layer components {
+  .section-viewport {
+    min-height: calc(100vh - 3rem);
+  }
+
+  @media (width >= 48rem) {
+    .section-viewport {
+      min-height: calc(70vh - 3rem);
+    }
+  }
+
   .work-cursor-label {
     --work-pointer-offset-x: 0.75rem;
     --work-pointer-x: 0rem;
@@ -94,6 +104,18 @@
     opacity: 1;
   }
 
+  section:has([data-work-link]) {
+    transition: opacity 200ms ease;
+  }
+
+  main:has([data-work-link]:hover) section:has([data-work-link]):not(:has([data-work-link]:hover)) {
+    opacity: 0.2;
+  }
+
+  main:has([data-work-link]:focus-visible) section:has([data-work-link]):not(:has([data-work-link]:focus-visible)) {
+    opacity: 0.2;
+  }
+
   @keyframes work-cursor-marquee {
     to {
       transform: translateX(-50%);
@@ -103,6 +125,12 @@
   @media (pointer: coarse) {
     .work-cursor-label {
       display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    section:has([data-work-link]) {
+      transition: none;
     }
   }
 }
