@@ -1,3 +1,4 @@
+// Copyright year
 document.querySelectorAll("[data-copyright-year]").forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
@@ -7,6 +8,7 @@ const remToPx = (value) => value * 16;
 const pointerGapRem = 0.75;
 const desktopMediaQuery = window.matchMedia("(min-width: 48rem)");
 
+// Work videos
 const syncWorkVideos = () => {
   document.querySelectorAll("[data-work-link] video").forEach((video) => {
     if (desktopMediaQuery.matches) {
@@ -21,6 +23,7 @@ const syncWorkVideos = () => {
 syncWorkVideos();
 desktopMediaQuery.addEventListener("change", syncWorkVideos);
 
+// Work cursor label
 document.querySelectorAll("[data-work-link]").forEach((link) => {
   const cursorLabel = link.querySelector(".work-cursor-label");
 
