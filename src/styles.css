@@ -159,9 +159,11 @@
     border-color: var(--color-grid-border);
     border-left-width: 0.0625rem;
     border-top-width: 0.0625rem;
+    border-radius: 0.4rem;
     border-style: solid;
     display: grid;
     grid-template-columns: 1fr;
+    overflow: hidden;
   }
 
   @media (width >= 40rem) {
@@ -188,6 +190,52 @@
     padding-block: 2rem;
     padding-inline: 1.5rem;
     row-gap: 1rem;
+  }
+
+  .about-card:first-child {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+
+  .about-card:last-child {
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+  }
+
+  @media (width >= 40rem) {
+    .about-card:first-child {
+      border-top-right-radius: 0;
+    }
+
+    .about-card:nth-child(2) {
+      border-top-right-radius: 0.4rem;
+    }
+
+    .about-card:nth-child(7) {
+      border-bottom-left-radius: 0.4rem;
+    }
+
+    .about-card:last-child {
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .about-card:nth-child(2) {
+      border-top-right-radius: 0;
+    }
+
+    .about-card:nth-child(4) {
+      border-top-right-radius: 0.4rem;
+    }
+
+    .about-card:nth-child(7) {
+      border-bottom-left-radius: 0;
+    }
+
+    .about-card:nth-child(5) {
+      border-bottom-left-radius: 0.4rem;
+    }
   }
 
   .about-card__icon {
@@ -222,9 +270,11 @@
     border-color: var(--color-grid-border);
     border-left-width: 0.0625rem;
     border-top-width: 0.0625rem;
+    border-radius: 0.4rem;
     border-style: solid;
     display: grid;
     grid-template-columns: 1fr;
+    overflow: hidden;
   }
 
   @media (width >= 40rem) {
@@ -253,6 +303,47 @@
     padding-block: 2rem;
     padding-inline: 1.5rem;
     position: relative;
+  }
+
+  .process-card:first-child {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+
+  .process-card:last-child {
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+  }
+
+  @media (width >= 40rem) {
+    .process-card:first-child {
+      border-top-right-radius: 0;
+    }
+
+    .process-card:nth-child(2) {
+      border-top-right-radius: 0.4rem;
+    }
+
+    .process-card:last-child {
+      border-bottom-left-radius: 0.4rem;
+      border-bottom-right-radius: 0.4rem;
+      border-top-right-radius: 0;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .process-card:nth-child(2) {
+      border-top-right-radius: 0;
+    }
+
+    .process-card:first-child {
+      border-bottom-left-radius: 0.4rem;
+    }
+
+    .process-card:last-child {
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 0.4rem;
+    }
   }
 
   .process-card__graphic {
