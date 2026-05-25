@@ -226,8 +226,14 @@
     display: grid;
     grid-template-columns: 1.5rem minmax(0, 1fr);
     padding-block: 2rem;
-    padding-inline: 1.5rem;
+    padding-inline: 0.75rem;
     row-gap: 1rem;
+  }
+
+  @media (width >= 48rem) {
+    .about-card {
+      padding-inline: 1.5rem;
+    }
   }
 
   .about-card:first-child {
@@ -339,8 +345,14 @@
     min-height: 100%;
     overflow: hidden;
     padding-block: 2rem;
-    padding-inline: 1.5rem;
+    padding-inline: 0.75rem;
     position: relative;
+  }
+
+  @media (width >= 48rem) {
+    .process-card {
+      padding-inline: 1.5rem;
+    }
   }
 
   .process-card:first-child {
@@ -423,9 +435,15 @@
     margin-top: 5rem;
     max-width: 43.75rem;
     padding-block: 2rem;
-    padding-inline: 1.5rem;
+    padding-inline: 0.75rem;
     text-align: start;
     width: 100%;
+  }
+
+  @media (width >= 48rem) {
+    .hire-faq {
+      padding-inline: 1.5rem;
+    }
   }
 
   .hire-faq__title {
