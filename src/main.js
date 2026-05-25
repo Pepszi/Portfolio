@@ -1,3 +1,7 @@
+document.querySelectorAll("[data-copyright-year]").forEach((element) => {
+  element.textContent = new Date().getFullYear();
+});
+
 const pxToRem = (value) => `${value / 16}rem`;
 const remToPx = (value) => value * 16;
 const pointerGapRem = 0.75;
