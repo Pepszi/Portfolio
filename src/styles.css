@@ -6,6 +6,7 @@
 
   --color-*: initial;
   --color-background: #141414;
+  --color-white: #ffffff;
   --color-section: rgb(51 111 101 / 10%);
   --color-foreground: #8fc7be;
   --color-accent: #00ffd2;
@@ -154,15 +155,6 @@
     }
   }
 
-  .about-section__title {
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.0625rem;
-    line-height: 1.4;
-    text-transform: uppercase;
-  }
-
   .about-grid {
     border-color: var(--color-grid-border);
     border-left-width: 0.0625rem;
@@ -224,5 +216,72 @@
     grid-row: 2;
     line-height: 1.5;
     margin: 0;
+  }
+
+  .process-grid {
+    border-color: var(--color-grid-border);
+    border-left-width: 0.0625rem;
+    border-top-width: 0.0625rem;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media (width >= 40rem) {
+    .process-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .process-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+
+  .process-card {
+    align-content: start;
+    border-bottom-width: 0.0625rem;
+    border-color: var(--color-grid-border);
+    border-right-width: 0.0625rem;
+    border-style: solid;
+    display: grid;
+    gap: 1rem;
+    isolation: isolate;
+    min-height: 100%;
+    overflow: hidden;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    position: relative;
+  }
+
+  .process-card__graphic {
+    bottom: -1rem;
+    height: 8.0625rem;
+    pointer-events: none;
+    position: absolute;
+    right: -0.5rem;
+    width: auto;
+    z-index: 0;
+  }
+
+  .process-card__title {
+    color: var(--color-accent);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .process-card__text {
+    color: var(--color-foreground);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+    z-index: 1;
   }
 }
