@@ -28,6 +28,10 @@
 }
 
 @layer components {
+  .hero-viewport {
+    min-height: calc(100vh - 3rem);
+  }
+
   .section-viewport {
     min-height: calc(100vh - 3rem);
   }
