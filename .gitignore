@@ -1,5 +1,4 @@
 .DS_Store
 .cursor
-.github
 node_modules/
 *.log
