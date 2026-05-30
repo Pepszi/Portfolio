@@ -18,7 +18,8 @@
     color-scheme: dark;
   }
 
-  html {
+  html,
+  body {
     overflow-x: clip;
   }
 
