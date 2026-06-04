@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --watch",
-    "build": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --minify"
+    "build": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --minify && node ./scripts/cache-bust-css.mjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.0",

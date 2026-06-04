@@ -22,7 +22,7 @@ Create a minified stylesheet:
 npm run build
 ```
 
-The generated stylesheet is written to `assets/styles.css`, which is linked from `index.html`.
+The generated stylesheet is written to `assets/styles.css`. `npm run build` also updates the stylesheet URL in `index.html` with a content hash (`?v=…`) so browsers fetch fresh CSS after each deploy.
 
 Start a localhost:
 
