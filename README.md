@@ -45,4 +45,5 @@ python3 -m http.server 5173
 ### External Services and Integrations
 
 - Cloudflare R2 public asset hosting
+- Posthog for website analytics
 
