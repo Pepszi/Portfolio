@@ -1,0 +1,83 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Vector_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(3px) translateY(3px) translateX(0px) translateY(0px);
+  }
+  50% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(3px) translateY(3px) translateX(1px) translateY(1px);
+  }
+  100% {
+    transform: translateX(3px) translateY(3px) translateX(0px) translateY(0px);
+  }
+}
+#Vector {
+  transform-origin: 0 0;
+  animation: kf_Vector_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Vector_2_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(14px) translateY(3px) translateX(0px) translateY(0px);
+  }
+  50% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(14px) translateY(3px) translateX(-1px) translateY(1px);
+  }
+  100% {
+    transform: translateX(14px) translateY(3px) translateX(0px) translateY(0px);
+  }
+}
+#Vector_2 {
+  transform-origin: 0 0;
+  animation: kf_Vector_2_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Vector_3_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(3px) translateY(14px) translateX(0px) translateY(0px);
+  }
+  50% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(3px) translateY(14px) translateX(1px) translateY(-1px);
+  }
+  100% {
+    transform: translateX(3px) translateY(14px) translateX(0px) translateY(0px);
+  }
+}
+#Vector_3 {
+  transform-origin: 0 0;
+  animation: kf_Vector_3_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Vector_4_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(14px) translateY(14px) translateX(0px) translateY(0px);
+  }
+  50% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(14px) translateY(14px) translateX(-1px) translateY(-1px);
+  }
+  100% {
+    transform: translateX(14px) translateY(14px) translateX(0px) translateY(0px);
+  }
+}
+#Vector_4 {
+  transform-origin: 0 0;
+  animation: kf_Vector_4_transform_0 1.2s linear infinite;
+}
+</style>
+<g id="pixels" clip-path="url(#clip0_1275_67)">
+<path id="Vector" transform="translate(3 3)" d="M7 0H0V7H7V0Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5"/>
+<path id="Vector_2" transform="translate(14 3)" d="M7 0H0V7H7V0Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5"/>
+<path id="Vector_3" transform="translate(3 14)" d="M7 0H0V7H7V0Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5"/>
+<path id="Vector_4" transform="translate(14 14)" d="M7 0H0V7H7V0Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5"/>
+</g>
+<defs>
+<clipPath id="clip0_1275_67">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

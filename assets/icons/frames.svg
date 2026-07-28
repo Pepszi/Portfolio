@@ -1,0 +1,43 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Vector_2_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.0188, 0.0679, 0.1374, 0.2195, 0.308, 0.3978, 0.4856, 0.5686, 0.6452, 0.7142, 0.7753, 0.8283, 0.8735, 0.9113, 0.9423, 0.9671, 0.9866, 1.0014, 1.0123, 1.0198, 1.0247, 1.0274, 1.0283, 1.0281, 1.0268, 1.025, 1.0227, 1.0202, 1.0177, 1.0152, 1.0128, 1.0106, 1.0085, 1.0068, 1.0052, 1.0039, 1.0028, 1.0018, 1.0011, 1.0005, 1, 0.9997, 0.9995, 0.9993, 0.9992, 0.9992, 0.9992, 0.9992, 0.9993, 0.9993);
+    transform: translateX(13px) translateY(5px) translateX(-4px) translateY(0px);
+  }
+  50% {
+    transform: translateX(13px) translateY(5px) translateX(0px) translateY(0px);
+  }
+  100% {
+    transform: translateX(13px) translateY(5px) translateX(0px) translateY(0px);
+  }
+}
+#Vector_2 {
+  transform-origin: 0 0;
+  animation: kf_Vector_2_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Vector_3_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.0188, 0.0679, 0.1374, 0.2195, 0.308, 0.3978, 0.4856, 0.5686, 0.6452, 0.7142, 0.7753, 0.8283, 0.8735, 0.9113, 0.9423, 0.9671, 0.9866, 1.0014, 1.0123, 1.0198, 1.0247, 1.0274, 1.0283, 1.0281, 1.0268, 1.025, 1.0227, 1.0202, 1.0177, 1.0152, 1.0128, 1.0106, 1.0085, 1.0068, 1.0052, 1.0039, 1.0028, 1.0018, 1.0011, 1.0005, 1, 0.9997, 0.9995, 0.9993, 0.9992, 0.9992, 0.9992, 0.9992, 0.9993, 0.9993);
+    transform: translateX(17px) translateY(5px) translateX(-8px) translateY(0px);
+  }
+  100% {
+    transform: translateX(17px) translateY(5px) translateX(0px) translateY(0px);
+  }
+}
+#Vector_3 {
+  transform-origin: 0 0;
+  animation: kf_Vector_3_transform_0 1.2s linear infinite;
+}
+</style>
+<g id="frames" clip-path="url(#clip0_1275_72)">
+<path id="Vector" transform="translate(1.6571 5.03711)" d="M12.1908 8.27979L7.84784 13.2428C7.66013 13.4573 7.42873 13.6292 7.16917 13.747C6.90961 13.8647 6.62787 13.9256 6.34284 13.9256C6.05781 13.9256 5.77608 13.8647 5.51652 13.747C5.25695 13.6292 5.02556 13.4573 4.83784 13.2428L0.49484 8.27979C0.17584 7.91519 0 7.44729 0 6.96279C0 6.47839 0.17584 6.01039 0.49484 5.64579L4.83784 0.68281C5.02556 0.46833 5.25695 0.29645 5.51652 0.17869C5.77608 0.06092 6.05781 0 6.34284 0C6.62787 0 6.90961 0.06092 7.16917 0.17869C7.42873 0.29645 7.66013 0.46833 7.84784 0.68281L12.1908 5.64579C12.5098 6.01039 12.6857 6.47839 12.6857 6.96279C12.6857 7.44729 12.5098 7.91519 12.1908 8.27979Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" transform="translate(13 5)" d="M0 14L4.884 8.302C5.1949 7.9395 5.3658 7.4776 5.3658 7C5.3658 6.5224 5.1949 6.0605 4.884 5.698L0 0" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" transform="translate(17 5)" d="M0 14L4.884 8.302C5.1949 7.9395 5.3658 7.4776 5.3658 7C5.3658 6.5224 5.1949 6.0605 4.884 5.698L0 0" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1275_72">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,3 +1,5 @@
+import { initAboutIcons } from "./about-icons.js";
+
 // Copyright year
 document.querySelectorAll("[data-copyright-year]").forEach((element) => {
   element.textContent = new Date().getFullYear();
@@ -159,3 +161,5 @@ syncMediaQueries();
 desktopMediaQuery.addEventListener("change", syncMediaQueries);
 reducedMotionMediaQuery.addEventListener("change", syncMediaQueries);
 window.addEventListener("resize", handleResize);
+
+initAboutIcons(reducedMotionMediaQuery);

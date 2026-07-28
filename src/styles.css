@@ -285,10 +285,15 @@
 
   .about-card__icon {
     color: var(--color-accent);
+    display: block;
     grid-column: 1;
     grid-row: 1;
     height: 1.5rem;
     width: 1.5rem;
+  }
+
+  .about-card__icon.is-active {
+    color: var(--color-accent);
   }
 
   .about-card__title {

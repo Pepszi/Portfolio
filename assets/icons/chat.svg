@@ -1,0 +1,29 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_chat_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.685, 0, 0.4, 1);
+    transform: translate(12px, 12px) rotate(0rad) translate(-12px, -12px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.685, 0, 0.4, 1);
+    transform: translate(12px, 12px) rotate(-1.571rad) translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(12px, 12px) rotate(0rad) translate(-12px, -12px);
+  }
+}
+#chat {
+  transform-origin: 0 0;
+  animation: kf_chat_transform_0 1.2s linear infinite;
+}
+</style>
+<g id="chat" clip-path="url(#clip0_1269_52)">
+<path id="Ellipse_3__Stroke_" transform="translate(1.99952 2)" d="M18.2962 9.5C18.2962 5.08169 14.7148 1.5 10.2962 1.5C5.87761 1.5 2.29621 5.08169 2.29621 9.5C2.29621 10.5542 2.49903 11.5572 2.86652 12.4746C3.06696 12.975 3.12258 13.5597 2.95637 14.1357L1.73274 18.376L6.2757 17.0654L6.47102 17.0176C6.86208 16.9382 7.25191 16.9566 7.61067 17.0479L7.78742 17.0996L8.08527 17.1914C8.78566 17.3923 9.52729 17.5 10.2962 17.5C14.7148 17.5 18.2962 13.9183 18.2962 9.5ZM19.7962 9.5C19.7962 14.7467 15.5433 19 10.2962 19C9.25566 19 8.25343 18.8325 7.31672 18.5234C7.11426 18.4567 6.89654 18.4477 6.69172 18.5068L1.27863 20.0684C0.522684 20.2866 -0.177513 19.587 0.0403528 18.8311L1.51496 13.7197C1.58038 13.493 1.56169 13.2513 1.47395 13.0322C1.03656 11.9403 0.796212 10.7483 0.796212 9.5C0.796212 4.2533 5.04914 0 10.2962 0C15.5433 0 19.7962 4.2533 19.7962 9.5Z" fill="black" style="fill:black;fill-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_1269_52">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

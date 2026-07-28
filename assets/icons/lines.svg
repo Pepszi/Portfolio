@@ -1,0 +1,65 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Rectangle_61_transform_0 {
+  0% {
+    transform: translateX(17px) translateY(11px) translate(0.75px, 10px) scaleX(1) scaleY(0) translate(-0.75px, -10px);
+  }
+  62.5% {
+    animation-timing-function: ease-out;
+    transform: translateX(17px) translateY(11px) translate(0.75px, 10px) scaleX(1) scaleY(0) translate(-0.75px, -10px);
+  }
+  100% {
+    transform: translateX(17px) translateY(11px) translate(0.75px, 10px) scaleX(1) scaleY(1) translate(-0.75px, -10px);
+  }
+}
+#Rectangle_61 {
+  transform-origin: 0 0;
+  animation: kf_Rectangle_61_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Rectangle_60_transform_0 {
+  0% {
+    transform: translateX(11px) translateY(5px) translate(0.75px, 16px) scaleX(1) scaleY(0) translate(-0.75px, -16px);
+  }
+  29.17% {
+    animation-timing-function: ease-out;
+    transform: translateX(11px) translateY(5px) translate(0.75px, 16px) scaleX(1) scaleY(0) translate(-0.75px, -16px);
+  }
+  66.67% {
+    transform: translateX(11px) translateY(5px) translate(0.75px, 16px) scaleX(1) scaleY(1) translate(-0.75px, -16px);
+  }
+  100% {
+    transform: translateX(11px) translateY(5px) translate(0.75px, 16px) scaleX(1) scaleY(1) translate(-0.75px, -16px);
+  }
+}
+#Rectangle_60 {
+  transform-origin: 0 0;
+  animation: kf_Rectangle_60_transform_0 1.2s linear infinite;
+}
+@keyframes kf_Rectangle_59_transform_0 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: translateX(5px) translateY(15px) translate(0.75px, 6px) scaleX(1) scaleY(0) translate(-0.75px, -6px);
+  }
+  33.33% {
+    transform: translateX(5px) translateY(15px) translate(0.75px, 6px) scaleX(1) scaleY(1) translate(-0.75px, -6px);
+  }
+  100% {
+    transform: translateX(5px) translateY(15px) translate(0.75px, 6px) scaleX(1) scaleY(1) translate(-0.75px, -6px);
+  }
+}
+#Rectangle_59 {
+  transform-origin: 0 0;
+  animation: kf_Rectangle_59_transform_0 1.2s linear infinite;
+}
+</style>
+<g id="lines" clip-path="url(#clip0_1273_25)">
+<rect id="Rectangle_61" transform="translate(17 11)" width="1.5" height="10" fill="black" style="fill:black;fill-opacity:1;"/>
+<rect id="Rectangle_60" transform="translate(11 5)" width="1.5" height="16" fill="black" style="fill:black;fill-opacity:1;"/>
+<rect id="Rectangle_59" transform="translate(5 15)" width="1.5" height="6" fill="black" style="fill:black;fill-opacity:1;"/>
+</g>
+<defs>
+<clipPath id="clip0_1273_25">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

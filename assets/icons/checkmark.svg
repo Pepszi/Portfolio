@@ -1,0 +1,26 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Vector_2_transform_0 {
+  0% {
+    animation-timing-function: linear(0, 0.03, 0.1077, 0.2165, 0.342, 0.4728, 0.6001, 0.7175, 0.8208, 0.9077, 0.9776, 1.0307, 1.0684, 1.0925, 1.1051, 1.1084, 1.1047, 1.096, 1.084, 1.0703, 1.0561, 1.0424, 1.0297, 1.0187, 1.0094, 1.0019, 0.9963, 0.9923, 0.9898, 0.9885, 0.9882, 0.9887, 0.9897, 0.991, 0.9925, 0.994, 0.9955, 0.9969, 0.9981, 0.9991, 0.9998, 1.0004, 1.0009, 1.0011, 1.0012, 1.0013, 1.0012, 1.0011, 1.001, 1.0008, 1.0006);
+    transform: translateX(9.5px) translateY(10.5px) translate(2.5px, 1.75px) scaleX(0) scaleY(0) translate(-2.5px, -1.75px);
+  }
+  100% {
+    transform: translateX(9.5px) translateY(10.5px) translate(2.5px, 1.75px) scaleX(1) scaleY(1) translate(-2.5px, -1.75px);
+  }
+}
+#Vector_2 {
+  transform-origin: 0 0;
+  animation: kf_Vector_2_transform_0 1.2s linear infinite;
+}
+</style>
+<g id="checkmark" clip-path="url(#clip0_1271_81)">
+<path id="Vector" transform="translate(4 2)" d="M16 10C16 16 8 20 8 20C8 20 0 16 0 10V3L8 0L16 3V10Z" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" transform="translate(9.5 10.5)" d="M0 2L1.5 3.5L5 0" stroke="black" style="stroke:black;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1271_81">
+<rect width="24" height="24" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>
