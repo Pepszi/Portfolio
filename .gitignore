@@ -2,3 +2,6 @@
 .cursor
 node_modules/
 *.log
+
+# ShipStudio metadata
+.shipstudio/
